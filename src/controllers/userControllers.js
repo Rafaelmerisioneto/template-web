@@ -56,6 +56,3 @@ return res.status(404).json({ message: 'Usuário não encontrado' });
 users.splice(userIndex, 1);
 res.status(204).send(); // No content
 };
-
-
-// rafael, deu certo, obg
