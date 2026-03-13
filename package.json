@@ -1,0 +1,16 @@
+{
+  "name": "aulaweb",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rafael Merisio Neto",
+  "license": "ISC",
+  "description": "Projeto do Curso Ciencias da Computação - aula web",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
