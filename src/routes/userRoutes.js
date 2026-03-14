@@ -10,10 +10,10 @@ import {
 const router = express.Router();
 
 // Definindo as rotas
-router.get('/', getAllUsers);
-router.get('/:id', getUserById);
-router.post('/', createUser);
-router.put('/:id', updateUser);
-router.delete('/:id', deleteUser);
+router.get('/get-by-title', getByTitle);
+router.get('/get-by-date', getByDate);
+// router.get('/get-by-date', getUserById);
+// router.get('/get-by-date', getUserById);
+router.get('/get-by-category', getByCategory);
 
 export default router;
